@@ -1,0 +1,17 @@
+package com.example.sharks.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.sharks.service.SharkService;
+
+@RestController
+@RequestMapping("/shark")
+public class SharkController {
+	
+	private SharkService service;
+	
+	public SharkController(SharkService service) {
+		this.service = service;
+	}
+}
