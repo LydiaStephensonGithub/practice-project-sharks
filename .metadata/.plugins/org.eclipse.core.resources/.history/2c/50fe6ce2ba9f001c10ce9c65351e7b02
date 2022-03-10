@@ -1,0 +1,4 @@
+INSERT INTO shark
+	(`species`, `latinName`, `habitat`, `conservationStatus`)
+VALUES
+	('Jaws', 'Great White', 'Amity Island, New England', 'Extinct');
