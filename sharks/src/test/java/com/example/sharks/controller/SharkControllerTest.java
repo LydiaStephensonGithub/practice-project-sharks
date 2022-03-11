@@ -75,15 +75,6 @@ public class SharkControllerTest {
 	}
 	
 	@Test
-	public void testDeleteIdNotFound() throws Exception {
-		RequestBuilder req = delete("/shar/delete/2");
-		
-		ResultMatcher checkStatus = status().isNotFound();
-		
-		this.mvc.perform(req).andExpect(checkStatus);
-	}
-	
-	@Test
 	public void testReadById() throws Exception {
 		RequestBuilder req = get("/shark/readById/1");
 		

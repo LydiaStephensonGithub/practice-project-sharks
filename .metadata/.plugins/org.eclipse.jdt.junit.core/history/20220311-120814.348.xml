@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SharkServiceUnitTesting" project="sharks" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.sharks.service.SharkServiceUnitTesting" time="0.168" displayname="SharkServiceUnitTesting" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]">
+    <testcase name="readAllTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.101" displayname="readAllTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:readAllTest()]"/>
+    <testcase name="updateTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.022" displayname="updateTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:updateTest()]"/>
+    <testcase name="readByIdTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.013" displayname="readByIdTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:readByIdTest()]"/>
+    <testcase name="idFoundDeleteTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.011" displayname="idFoundDeleteTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:idFoundDeleteTest()]"/>
+    <testcase name="createSharkTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.009" displayname="createSharkTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:createSharkTest()]"/>
+  </testsuite>
+</testrun>

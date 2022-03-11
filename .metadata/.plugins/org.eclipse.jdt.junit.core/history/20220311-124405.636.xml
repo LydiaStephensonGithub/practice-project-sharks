@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="sharks" project="sharks" tests="19" started="19" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.sharks.SharksApplicationTests" time="0.331" displayname="SharksApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.SharksApplicationTests]">
+    <testcase name="contextLoads" classname="com.example.sharks.SharksApplicationTests" time="0.331" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.SharksApplicationTests]/[method:contextLoads()]"/>
+  </testsuite>
+  <testsuite name="com.example.sharks.service.SharkServiceUnitTesting" time="0.102" displayname="SharkServiceUnitTesting" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]">
+    <testcase name="readAllTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.061" displayname="readAllTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:readAllTest()]"/>
+    <testcase name="updateTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.016" displayname="updateTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:updateTest()]"/>
+    <testcase name="readByIdTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.005" displayname="readByIdTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:readByIdTest()]"/>
+    <testcase name="idFoundDeleteTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.007" displayname="idFoundDeleteTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:idFoundDeleteTest()]"/>
+    <testcase name="createSharkTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.005" displayname="createSharkTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:createSharkTest()]"/>
+  </testsuite>
+  <testsuite name="com.example.sharks.controller.SharkControllerTest" time="0.68" displayname="SharkControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.controller.SharkControllerTest]">
+    <testcase name="findSharkByConservationStatus" classname="com.example.sharks.controller.SharkControllerTest" time="0.283" displayname="findSharkByConservationStatus()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.controller.SharkControllerTest]/[method:findSharkByConservationStatus()]"/>
+    <testcase name="testfindSharkByHabitat" classname="com.example.sharks.controller.SharkControllerTest" time="0.05" displayname="testfindSharkByHabitat()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.controller.SharkControllerTest]/[method:testfindSharkByHabitat()]"/>
+    <testcase name="testReadById" classname="com.example.sharks.controller.SharkControllerTest" time="0.044" displayname="testReadById()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.controller.SharkControllerTest]/[method:testReadById()]"/>
+    <testcase name="testReadAll" classname="com.example.sharks.controller.SharkControllerTest" time="0.03" displayname="testReadAll()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.controller.SharkControllerTest]/[method:testReadAll()]"/>
+    <testcase name="testCreate" classname="com.example.sharks.controller.SharkControllerTest" time="0.102" displayname="testCreate()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.controller.SharkControllerTest]/[method:testCreate()]"/>
+    <testcase name="testfindSharkBySpecies" classname="com.example.sharks.controller.SharkControllerTest" time="0.027" displayname="testfindSharkBySpecies()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.controller.SharkControllerTest]/[method:testfindSharkBySpecies()]"/>
+    <testcase name="testDelete" classname="com.example.sharks.controller.SharkControllerTest" time="0.105" displayname="testDelete()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.controller.SharkControllerTest]/[method:testDelete()]"/>
+    <testcase name="testUpdate" classname="com.example.sharks.controller.SharkControllerTest" time="0.032" displayname="testUpdate()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.controller.SharkControllerTest]/[method:testUpdate()]"/>
+  </testsuite>
+  <testsuite name="com.example.sharks.entity.SharkTest" time="0.477" displayname="SharkTest" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.entity.SharkTest]">
+    <testcase name="allArgsConstructor" classname="com.example.sharks.entity.SharkTest" time="0.001" displayname="allArgsConstructor()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.entity.SharkTest]/[method:allArgsConstructor()]"/>
+    <testcase name="noIdConstructor" classname="com.example.sharks.entity.SharkTest" time="0.001" displayname="noIdConstructor()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.entity.SharkTest]/[method:noIdConstructor()]"/>
+    <testcase name="getAndSetTest" classname="com.example.sharks.entity.SharkTest" time="0.001" displayname="getAndSetTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.entity.SharkTest]/[method:getAndSetTest()]"/>
+    <testcase name="toStringTest" classname="com.example.sharks.entity.SharkTest" time="0.0" displayname="toStringTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.entity.SharkTest]/[method:toStringTest()]"/>
+    <testcase name="testEquals" classname="com.example.sharks.entity.SharkTest" time="0.471" displayname="testEquals()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.entity.SharkTest]/[method:testEquals()]"/>
+  </testsuite>
+</testrun>

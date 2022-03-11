@@ -6,6 +6,7 @@ import java.util.Optional;
 import org.springframework.stereotype.Service;
 
 import com.example.sharks.entity.Shark;
+import com.example.sharks.exception.SharkNotFoundException;
 import com.example.sharks.repo.SharkRepo;
 
 @Service
@@ -33,23 +34,20 @@ public class SharkService implements ServiceMethods<Shark> {
 			entry.setConservationStatus(t.getConservationStatus());
 			
 			return this.repo.saveAndFlush(entry);
-		}
-		return null;
+		} 
+		throw new SharkNotFoundException();
 	}
 
 	@Override
 	public boolean delete(long id) {
 		this.repo.deleteById(id);
-		return !this.repo.existsById(id);
+		return !this.repo.existsById(id);	
 	}
 
 	@Override
 	public Shark readById(long id) {
-		Optional<Shark> getEntry = this.repo.findById(id);
-		if (getEntry.isPresent()) {
-			return getEntry.get();
-		}
-		return null;
+		Shark found = this.repo.findById(id).orElseThrow(SharkNotFoundException::new);
+		return found;
 	}
 
 	@Override

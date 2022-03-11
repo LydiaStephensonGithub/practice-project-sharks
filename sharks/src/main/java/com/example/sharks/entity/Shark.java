@@ -90,7 +90,7 @@ public class Shark {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(conservationStatus, habitat, id, latinName, species);
+		return Objects.hash(conservationStatus, habitat, latinName, species);
 	}
 
 	@Override
@@ -103,13 +103,12 @@ public class Shark {
 			return false;
 		Shark other = (Shark) obj;
 		return Objects.equals(conservationStatus, other.conservationStatus) && Objects.equals(habitat, other.habitat)
-				&& id == other.id && Objects.equals(latinName, other.latinName)
+				&& Objects.equals(latinName, other.latinName)
 				&& Objects.equals(species, other.species);
 	}
 
 	@Override
 	public String toString() {
-		return "Shark [id=" + id + ", species=" + species + ", latinName=" + latinName + ", habitat=" + habitat
-				+ ", conservationStatus=" + conservationStatus + "]";
+		return id + " " + species + latinName + habitat + conservationStatus;
 	}
 }

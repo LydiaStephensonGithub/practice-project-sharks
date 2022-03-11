@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SharkServiceUnitTesting" project="sharks" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.sharks.service.SharkServiceUnitTesting" time="0.182" displayname="SharkServiceUnitTesting" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]">
+    <testcase name="readAllTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.1" displayname="readAllTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:readAllTest()]"/>
+    <testcase name="findSharkByHabitatSQL" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.014" displayname="findSharkByHabitatSQL()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:findSharkByHabitatSQL()]"/>
+    <testcase name="updateTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.014" displayname="updateTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:updateTest()]"/>
+    <testcase name="readByIdTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.007" displayname="readByIdTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:readByIdTest()]"/>
+    <testcase name="createSharkTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.007" displayname="createSharkTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:createSharkTest()]"/>
+    <testcase name="findSharkBySpeciesTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.006" displayname="findSharkBySpeciesTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:findSharkBySpeciesTest()]"/>
+    <testcase name="findSharkByConservationStatusJPQL" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.008" displayname="findSharkByConservationStatusJPQL()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:findSharkByConservationStatusJPQL()]"/>
+    <testcase name="deleteTest" classname="com.example.sharks.service.SharkServiceUnitTesting" time="0.01" displayname="deleteTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.sharks.service.SharkServiceUnitTesting]/[method:deleteTest()]"/>
+  </testsuite>
+</testrun>
